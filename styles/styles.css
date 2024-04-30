@@ -1,0 +1,70 @@
+/*General settings*/
+@font-face {
+    font-family: Inter;
+    src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+    font-size: 14px;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter, Arial, sans-serif;
+    font-size: 1em;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+h2 {
+    color: hsl(75, 94%, 57%);
+    margin-top: -0.8em;
+}
+
+p {
+    padding: 1em;
+}
+
+ul, li {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+/*Main Content*/
+#main-content {
+    background-color: hsl(0, 0%, 12%);
+    width: 30%;
+    height: 45%;
+    margin: 5rem auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    align-items: center;
+}
+
+#main-content img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 50%;
+}
+
+#main-content ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    transition: 0.5s;
+}
+
+/*Active states*/
+#main-content ul li a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+
+/*Attribution*/
+.attribution a {
+    color: hsl(75, 94%, 57%);
+    margin: 0 auto;
+}
